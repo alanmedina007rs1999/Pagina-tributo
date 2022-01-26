@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-size: 1.3rem;
+    background-color: #000000;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background-image: url("https://i.imgur.com/V5T19Nv.jpg");
+    padding: 3rem 2rem;
+    background-repeat: repeat-x;
+    background-size: cover;
+    height: 200px;
+    background-position: center center;
+    color: white; 
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+header h1 {
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+header h2 {
+    font-size: 1.5rem;
+    font-family: cursive;
+    margin-top: 0;
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.contenido {
+    width: 50%;
+    margin: 0 auto;
+}
+
+article {
+    background-color: rgb(204, 204, 204);
+    border-radius: 1rem;
+    padding: 5rem;
+    text-align: initial;
+    position: relative;
+    top: -3rem;
+    transition:  background-color, box-shadow 0.5s ease;
+}
+
+article:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0.5rem 0.5rem 1rem rgba(255, 255, 255, 0.5);
+
+}
+
+table {
+    width: 60%;
+    background-color: rgba(238, 238, 238,0.9);
+    color: black;
+    border-collapse: separate;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    padding-bottom: -1rem;
+    
+}
+th {
+    padding-bottom: 1rem;
+}
+td {
+    border: solid 0.2rem rgba(255, 255, 255, 0.2);
+    background-color: rgba(196, 196, 196, 0.2);
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    /* a partir de aqui voy a modificar*/
+    position: relative;
+    top: 2rem;
+
+
+    transition: box-shadow 0.3s ease;
+}
+
+td:hover {
+   
+    box-shadow: 1rem 1rem 3rem rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(31, 105, 243);
+    
+  
+}
+
+
+.titulo_tabla {
+    color:white;
+    text-align: center;
+    font-family: cursive;
+}
+h3 {
+    color:white;
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 1rem;
+    
+}
+.copy {
+    color:white;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+a {
+    color:rgb(31, 105, 243);
+}
