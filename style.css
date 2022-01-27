@@ -6,7 +6,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 header {
-    background-image: url("https://i.imgur.com/V5T19Nv.jpg");
+    background-image: url("Fondo.jpg");
     padding: 3rem 2rem;
     background-repeat: repeat-x;
     background-size: cover;
@@ -47,6 +47,7 @@ article {
     position: relative;
     top: -3rem;
     transition:  background-color, box-shadow 0.5s ease;
+    cursor: pointer;
 }
 
 article:hover {
@@ -64,6 +65,7 @@ table {
     padding: 1rem;
     border-radius: 1rem;
     padding-bottom: -1rem;
+    cursor: pointer;
     
 }
 th {
